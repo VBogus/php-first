@@ -31,4 +31,4 @@ echo 'Price+Delivery=', $price+$shipping, 'p.<br>';
         echo 'Stolerman vladeet=',$stolerman/$vsego*100,'akciy<br>';
         echo 'Ivan vladeet=', $ivan/$vsego*100,'akciy<br>';
         echo 'Vsego=',$vsego, 'Prodano=',$djon+$ivan+$stolerman, 'akciy<br>';
-        ?>
+?>
