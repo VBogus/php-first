@@ -32,3 +32,13 @@ echo 'Price+Delivery=', $price+$shipping, 'p.<br>';
         echo 'Ivan vladeet=', $ivan/$vsego*100,'akciy<br>';
         echo 'Vsego=',$vsego, 'Prodano=',$djon+$ivan+$stolerman, 'akciy<br>';
 ?>
+
+<?php   
+        $type='Igra';
+        $name='"World of Warcfart"';
+        echo "<h1>$type $name</h1>";
+?>
+
+<?php
+        $chyc="'chyvstvo'";$fant='"fantaziy"';$kav=''';
+        echo "<h1>To samoe $chyc, kogda konchilis slova i otkl $fant, da eshe i "$kav" </h1>"
