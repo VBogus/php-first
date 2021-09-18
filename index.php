@@ -64,12 +64,44 @@ echo 'Price+Delivery=', $price+$shipping, 'p.<br>';
         $user1['age']=25;
         $user2=['name'=>'Vlad'];
         $user2['age']=27;
-       echo '<pre>';
-        print_r([$user1,$user2]);
-       echo '</pre>'; 
         $user1['age']*=1.5;
         $user2['age']*=1.5;
-       echo '<pre>';
-       print_r([$user1,$user2]);
-      echo '</pre>';
+              print_r([$user1,$user2]);
+      
 ?>
+<?php
+        $city=['name'=>'Tula',
+        'street'=>[['name'=>'Mira','buldings_count'=>10,'old_buildings'=>[5,6,7]],
+        ['name'=>'okrug','buldings_count'=>20,'old_buildings'=>[3,9,17]],
+        ['name'=>'Lenina','buldings_count'=>15,'old_buildings'=>[2,12,23]]]];
+        echo '<pre>';
+        print_r([$city]);
+        echo '</pre>';
+?>
+<?php
+        $arr[]=[1,2,3];
+        $arr[]=[4,5,6];
+        $arr[]=[7,8,9];
+        foreach ($arr as $key=>$value)
+        {echo 'Ключ: '.$key.'| Значение:';
+         echo implode(',',$value).'<br>';}                        
+?>
+<?php
+        $const=15;
+        $num=-2;
+        $a=0;
+        while ($a<$const) {
+            $num+=3;    
+                echo $num, ' ';
+                $a++;}
+?>
+<br>
+<?php
+        $arr=[3,4,9,18,22];
+        $i=0;
+                while ($i<count($arr))
+                echo $arr[$i++], ' ';
+?>
+<br>
+<?php
+        
