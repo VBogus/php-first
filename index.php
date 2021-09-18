@@ -40,5 +40,36 @@ echo 'Price+Delivery=', $price+$shipping, 'p.<br>';
 ?>
 
 <?php
-        $chyc="'chyvstvo'";$fant='"fantaziy"';$kav=''';
-        echo "<h1>To samoe $chyc, kogda konchilis slova i otkl $fant, da eshe i "$kav" </h1>"
+        
+        echo "to samoe 'chyvstvo', kogda konchilis slova i otkluchena \"fantazia\", da eshe i kavuchek \" ' \" napihali. <br>";
+?>
+<?php
+        define('PASSWORD','ioe84fe#');
+        echo '<div>', PASSWORD,'</div>';
+?> 
+<?php
+        $a=5<1;// true
+        echo $a, '<br>';
+        $a=5==1;// False
+        $a=5!=9;//True
+        $a=3<>3;//False
+        $a=9<3;//False
+        $a=5+1;//6
+        $a=1<=2;//true
+        $a=-10 >=5;//false
+        $a=0==1;// False
+?>
+<?php
+        $user1=['name'=>'PEt9'];
+        $user1['age']=25;
+        $user2=['name'=>'Vlad'];
+        $user2['age']=27;
+       echo '<pre>';
+        print_r([$user1,$user2]);
+       echo '</pre>'; 
+        $user1['age']*=1.5;
+        $user2['age']*=1.5;
+       echo '<pre>';
+       print_r([$user1,$user2]);
+      echo '</pre>';
+?>
