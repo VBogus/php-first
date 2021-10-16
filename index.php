@@ -96,6 +96,10 @@ echo 'Price+Delivery=', $price+$shipping, 'p.<br>';
                 $a++;}
 ?>
 <br>
+
+
+
+
 <?php
         $arr=[3,4,9,18,22];
         $i=0;
